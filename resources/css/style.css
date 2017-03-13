@@ -1,0 +1,113 @@
+/* header, logo and navigation */
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding-bottom: 4px;
+}
+
+.logo {
+  /* image and text */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding-left: 2em;
+}
+
+#name-text h1 {
+  /* text in logo */
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  display: inline-block;
+}
+
+/* navigation links and elements */
+
+.navbar {
+  /* border: 1px solid blue;*/
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 40px;
+  /* padding-left: 20px;*/
+}
+
+.navbar li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.navbar li a {
+  color: black;
+}
+
+/* content styling */
+.content-main {
+  display: flex;
+  border: 1px solid blue;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.column {
+  diplay: flex;
+  flex-direction: column;
+  border: 1 px solid blue;
+}
+
+.story {
+  border: 1px dashed red;
+}
+
+.first {
+  width: 630px;
+  border: 1 px solid blue;
+}
+
+.left,
+.right {
+  width: 315px;
+}
+
+.side-story {
+  display: flex;
+  flex-direction: row;
+}
+
+.second {
+  width: 300px;
+}
+
+.third {
+  width: 240px;
+}
+.title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.image-1 {
+  background-image: url("../../resources/images/img-story-main.png");
+}
+
+.image-2 {
+  background-image: url("../../resources/images/img-story-2.png");
+}
+
+.image-3 {
+  background-image: url("../../resources/images/img-story-3.png");
+}
